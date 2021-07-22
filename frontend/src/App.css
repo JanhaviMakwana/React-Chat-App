@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  height: auto;
+}
+
+.chat-screen{
+  overflow-y: hidden;
+  padding: 10px;
+}
+
+.chat-bubble{
+  margin: 2px 5px;
+}
+
+.chat-bubble > p {
+  height: fit-content;
+  width: fit-content;
+  background-color: rgb(192, 189, 189);
+  border-radius: 5px;
+  padding: 5px 10px;
+ 
+}
+
+.chat-image{
+  width: 250px;
+  height: 200px;
+}
+
+.current{
+  float: left;
+}
+
+.other{
+  float: right;
+}
+
+.chat-input{
+  /* background-color: rgb(201, 193, 193); */
+  width: 100%;
+  
+}
+
+.chat-area{
+  overflow-y: scroll;
+}
+
+
+.chat-time{
+  font-size: x-small;
+  color: gray;
+  width: fit-content;
+  height: fit-content;
+}
+
+
